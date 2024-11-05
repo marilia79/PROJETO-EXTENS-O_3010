@@ -1,0 +1,19 @@
+{
+    "name": "ifsc/freelas",
+    "description": "Projeto de extensão do IFSC Garopaba",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Freelas\\Model\\": "model/",
+            "Freelas\\Controller\\": "controller/",
+            "Freelas\\Lib\\":"lib/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Turma 2023"
+        }
+    ],
+    "require": {}
+}
